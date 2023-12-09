@@ -36,11 +36,15 @@ movie_info_df = movie_info_df.dropna()
 ### DATA ANALYSIS
 The project analysis was curious to know what genre should we begin looking at from the vast number of genres available and which would be the best suitable genre for presentation to the company. The project checked the value count of movie genres and found out that drama genre was mainly watched genre followed closely by comedy then comedy and drama and drama and mystery.
 
+<<<<<<< HEAD
 ![international gross](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/300b5018-d78a-45e2-9c92-d1eb39a785b0)
+=======
+![movies vs count graph](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/2258562d-da6a-4292-9171-72af90ebda3e)
+>>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
 
 From this,findings the project suggests that microsoft should invest mostly in the top 5 genres for a start beginnig with drama movie genre to be able to get viewers from the beginning of movie production.
 
-From the analysis also the project tried to find out about other stduions in the movie production business currently through value counts
+From the analysis also the project tried to find out about other studios in the movie production business currently through value counts
 
 ![studio count](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/2740cce1-4f97-4964-93e9-aa510cb17290)
 
@@ -64,52 +68,75 @@ Top rated R had 105,PG-13 had 77,PG – 38, NR-9
 ![rating graph](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/0ff77275-b0de-4bae-83a8-a94d9135d6b9)
 
 This dataset shows that a good number of movies are rated restricted meaning viewers should be over the ag of 17 or 18. A good number of target audience for movies are people aged above 18. Restricted movies are followed closely by PG-13 which means parents strongly cautioned and the movie might be appropriate for users aged below 13. Parental guidance rated movies is third meaning movie might not be suitable for children. This project data then suggests that a good number of movie watchers are mostly audlts and the comapny should invest more on Restricted movie but also shoul be able to invest in PG-13 rated movies to suit all audiences
-
-
-
+##### Budget analysis
 The project also tried to look at the budget of movie productions from previous years and estimate figures Microsoft should anticipate. First we get to find the international gross which is worldwide gross – domestic gross to know how much returns to movies get from the international audience.
 ![international gross](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/300b5018-d78a-45e2-9c92-d1eb39a785b0)
 
+<<<<<<< HEAD
  
 From the international gross we then try to find the differences between the international gross to know the pattern involved. From the table it shows that alot of returns are from international audience. More movie marketing should also be done in the international market.
 
 ![scatter plots](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/88f2a2b4-ab45-4b77-8aa0-5f0bfbdeaadc)
 
+=======
+From the international gross we then try to find the differences between the international gross to know the pattern involved. From the table it shows that alot of returns are from international audience. More movie marketing should also be done in the international market.
+
+![scatter plots](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/88f2a2b4-ab45-4b77-8aa0-5f0bfbdeaadc)
+>>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
 
 The above scatter graph shows the relation between domestic gross vs international gross and production budget against worldwide gross. This plot shows that an increase in domestic gross will influence an increase in international gross and production budget influences worlwide gross
 
 The project then tries to estimate production budget, gross and profits as shown below
 
-
+![profits](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/782ce968-ab17-4885-bf3f-6fdb2c0d11c2)
 
 From the table we can see that the estimated production for starting a movie would be figures close to $31,587,760 and profits would be close to $59,899,700 but does not those would be the actual profit figures but most movies make profits of up to $8,550,286 and more
+<<<<<<< HEAD
 ![heatmaps](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a392a13f-1833-4ea4-ab2b-5cf1998f91e4)
 
 
+=======
+>>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
 
+#### number of votes against popularity and average rating
 From the third file the project analyzed which included popularity, vote average and vote count. In terms of correlation of popularity vs vote average with a correlation co efficient of 1 indicates a perfect positive correlation. This means that as popularity increases, vote average in movies also increases. It indicates a strong positive relationship between popularity and vote average. Vote count vs vote average shows a correlation coefficient of 0.73 which indicates a strong positive correlation and suggests that as the vote count increases the vote average tends to increase but it is not a perfect correlation
 
+<<<<<<< HEAD
 ![movie counts](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/18b02522-d54a-48ff-aab1-8f250b3f9237)
 
+=======
+![heatmaps](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a392a13f-1833-4ea4-ab2b-5cf1998f91e4)
+>>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
 
 From the movie info file the projects tries to find out which writes microsoft should try and collaborate with . From the value counts conducted the top most writer was Woody Allen with a total of 4 movies written followed by John Hughes with 3 and Jim Jarsmuch with 3 too . This project then goes ahead to suggest the three writers as a good potential start to write movies for Microsoft.
 In the reviews file the project tries to find what ratings do most movies to be able to know the average rating Microsoft movies get. Most movies had a rating of 2/4 and ¾ this means Microsoft should anticipate ratings between 2 and 3 if they produce average movies. In terms of publishers, Reelings reviews was top followed by Patrick Nabbaro
 
 From  the database the project mainly used 3 tables, movies basics movie akas and movie ratings. The first table we used  was movie basics to know what number of movies were produced in a certain year. From the result we notice that 2014 had the highest number of movies produced followed by 2013. The project results displayed then shows a gradual decrease of movies produced with 2023 having the least from the data we had.
 
+<<<<<<< HEAD
 ![inception](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/dbc01431-ecbf-4ede-9185-72a6ad559126)
 
 From the movie ratings table the average rating and numvotes columns displayed in the scatter plot, we can see that alot of movies are mostly between 6 and 8 with a large number of movies being rated 7
 ![num votes and average rating](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/6ff843b5-ca6d-42cc-852f-0344d01a642f)
+=======
+![movie counts](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/18b02522-d54a-48ff-aab1-8f250b3f9237)
+
+From the movie ratings table the average rating and numvotes columns displayed in the scatter plot, we can see that alot of movies are mostly between 6 and 8 with a large number of movies being rated 7
+![average rating](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/595f8324-ac60-4f04-8c5a-e87b29d0fb34)
+>>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
 
 Inception movie was top movie with a high number of counts and an average rating of 8.8 while the dark knight rises had an average rating vote of 8.4. Microsoft should analyze these type of movie content to know what type of content fascinates the audience
+![inception](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/dbc01431-ecbf-4ede-9185-72a6ad559126)
+
+#### correlation of average rating and vote count
+![num votes and average rating](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/6ff843b5-ca6d-42cc-852f-0344d01a642f)
+
 From the above correlation map shows the relationship between average rating and number of vote counts
 From the graph number of votes against average rating the correlation coefficient was 0.82. This is a positive correlation coefficient suggests that as average rating increases there is a tendency for number of votes to increase. 
 This suggests a fairly consistent relationship between the two variables. 
 When you observe a movie with higher rating there is a likelihood that it has received a higher number of votes
 
-
-Conclusion
+### Conclusion
 From this analysis the project concludes that the company should not limit the production budget if the company want to register higher profits. Production budget influences the profits made from movies
 Marketing of movies should be done worldwide more since a higher number of votes by the audience means the higher rating if the quality of the movie is high
 The company should try and collaborate with top writers and directors because of their experience in the movie industry
