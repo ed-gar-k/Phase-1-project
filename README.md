@@ -96,7 +96,10 @@ From the third file the project analyzed which included popularity, vote average
 From the movie info file the projects tries to find out which writes microsoft should try and collaborate with . From the value counts conducted the top most writer was Woody Allen with a total of 4 movies written followed by John Hughes with 3 and Jim Jarsmuch with 3 too . This project then goes ahead to suggest the three writers as a good potential start to write movies for Microsoft.
 In the reviews file the project tries to find what ratings do most movies to be able to know the average rating Microsoft movies get. Most movies had a rating of 2/4 and ¾ this means Microsoft should anticipate ratings between 2 and 3 if they produce average movies. In terms of publishers, Reelings reviews was top followed by Patrick Nabbaro
 
-From  the database the project mainly used 3 tables, movies basics movie akas and movie ratings. The first table we used  was movie basics to know what number of movies were produced in a certain year. From the result we notice that 2014 had the highest number of movies produced followed by 2013. The project results displayed then shows a gradual decrease of movies produced with 2023 having the least from the data we had.
+From  the database the project mainly used 3 tables, movies basics movie akas and movie ratings. 
+![movie_data_erd](https://github.com/ed-gar-k/Phase-1-project/assets/109956677/c04e3ede-8699-459f-a412-291a2c99f453)
+
+The first table we used  was movie basics to know what number of movies were produced in a certain year. From the result we notice that 2014 had the highest number of movies produced followed by 2013. The project results displayed then shows a gradual decrease of movies produced with 2023 having the least from the data we had.
 
 ![inception](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/dbc01431-ecbf-4ede-9185-72a6ad559126)
 
