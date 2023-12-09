@@ -38,24 +38,24 @@ The project analysis was curious to know what genre should we begin looking at f
 ![movies vs count graph](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/2258562d-da6a-4292-9171-72af90ebda3e)
 
 
-From this,findings the project suggests that microsoft should invest mostly in the top 5 genres for a start beginnig with drama movie genre to be able to get viewers from the beginning of movie production.
+From this,findings the project suggests that microsoft should invest mostly in the top 5 genres for a start beginning with drama movie genre to be able to get viewers from the beginning of movie production.
 
 From the analysis also the project tried to find out about other studios in the movie production business currently through value counts
 
-![studio count](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/2740cce1-4f97-4964-93e9-aa510cb17290)
+![movie counts 2](https://github.com/ed-gar-k/Phase-1-project/assets/109956677/ebe89e95-8f9c-41c7-9c5a-e5cbda89529a)
 
 From the graph we notice that the top studio was universal pictures with a count of 23 followed by paramount pictures with a count of 15. These two studios would be the two main competitors to Microsoft and more effort should be put to know why they are the most preferred studios.
 
 From the file we also tried to find the average runtime of different movies
 
-![runtime stats](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a1996ebe-169e-4709-b7b0-fcfcf5e80237)
+![runtime stats 2](https://github.com/ed-gar-k/Phase-1-project/assets/109956677/6aae6966-0f2d-4527-8d20-ae47bdfe7cc9)
 
 This dataframe shows the runtime stats like the mean median and standard deviation. The maximum runtime minutes is 188 minutes while the minimum runtime is 67 minutes, The average runtime minutes is 106 minutes
 25th Percentile (Q1): 93 minutes
 This means that 25% of the movies in the dataset have a runtime of 93 minutes or les s. 50th Percentile (Q2 or Median): 105 minues
 This is the middle value of the dataset when it is ordered. It separates the lower 50% of runtimes from the upper This means 50% of the movies have a runtime of 105 minutes or less, and the other 50% have a runtime of 105 minutes or more. 75th Percentile (Q3): 117 minutes
 This means that 75% of the movies in the dataset have a runtime of 117 minutes 
-Judging by this data, movies produced by microsoft should range between 90 mins and 120 mins or less.
+Judging by this data, movies produced by microsoft should range between 90 minutes and 120 minutes or less.
 
 
 In terms of ratings
@@ -63,7 +63,7 @@ Top rated R had 105,PG-13 had 77,PG – 38, NR-9
 
 ![rating graph](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/0ff77275-b0de-4bae-83a8-a94d9135d6b9)
 
-This dataset shows that a good number of movies are rated restricted meaning viewers should be over the ag of 17 or 18. A good number of target audience for movies are people aged above 18. Restricted movies are followed closely by PG-13 which means parents strongly cautioned and the movie might be appropriate for users aged below 13. Parental guidance rated movies is third meaning movie might not be suitable for children. This project data then suggests that a good number of movie watchers are mostly audlts and the comapny should invest more on Restricted movie but also shoul be able to invest in PG-13 rated movies to suit all audiences
+This dataset shows that a good number of movies are rated restricted meaning viewers should be over the ag of 17 or 18. A good number of target audience for movies are people aged above 18. Restricted movies are followed closely by PG-13 which means parents strongly cautioned and the movie might be appropriate for users aged below 13. Parental guidance rated movies is third meaning movie might not be suitable for children. This project data then suggests that a good number of movie watchers are mostly adultts and the company should invest more on Restricted movie but also shoul be able to invest in PG-13 rated movies to suit all audiences
 ##### Budget analysis
 The project also tried to look at the budget of movie productions from previous years and estimate figures Microsoft should anticipate. First we get to find the international gross which is worldwide gross – domestic gross to know how much returns to movies get from the international audience.
 ![international gross](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/300b5018-d78a-45e2-9c92-d1eb39a785b0)
@@ -91,7 +91,7 @@ From the third file the project analyzed which included popularity, vote average
 
 
 ![heatmaps](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a392a13f-1833-4ea4-ab2b-5cf1998f91e4)
->>>>>>> 1ef02f48e36e1b8f075fba0f3b7e1383a23f49a2
+
 
 From the movie info file the projects tries to find out which writes microsoft should try and collaborate with . From the value counts conducted the top most writer was Woody Allen with a total of 4 movies written followed by John Hughes with 3 and Jim Jarsmuch with 3 too . This project then goes ahead to suggest the three writers as a good potential start to write movies for Microsoft.
 In the reviews file the project tries to find what ratings do most movies to be able to know the average rating Microsoft movies get. Most movies had a rating of 2/4 and ¾ this means Microsoft should anticipate ratings between 2 and 3 if they produce average movies. In terms of publishers, Reelings reviews was top followed by Patrick Nabbaro
