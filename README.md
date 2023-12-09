@@ -36,19 +36,20 @@ movie_info_df = movie_info_df.dropna()
 ### DATA ANALYSIS
 The project analysis was curious to know what genre should we begin looking at from the vast number of genres available and which would be the best suitable genre for presentation to the company. The project checked the value count of movie genres and found out that drama genre was mainly watched genre followed closely by comedy then comedy and drama and drama and mystery.
 
-(insert genre count)
+![international gross](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/300b5018-d78a-45e2-9c92-d1eb39a785b0)
 
 From this,findings the project suggests that microsoft should invest mostly in the top 5 genres for a start beginnig with drama movie genre to be able to get viewers from the beginning of movie production.
 
 From the analysis also the project tried to find out about other stduions in the movie production business currently through value counts
 
-(insert studio count)
+![studio count](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/2740cce1-4f97-4964-93e9-aa510cb17290)
 
 From the graph we notice that the top studio was universal pictures with a count of 23 followed by paramount pictures with a count of 15. These two studios would be the two main competitors to Microsoft and more effort should be put to know why they are the most preferred studios.
 
 From the file we also tried to find the average runtime of different movies
 
-(insert run time stats)
+![runtime stats](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a1996ebe-169e-4709-b7b0-fcfcf5e80237)
+
 This dataframe shows the runtime stats like the mean median and standard deviation. The maximum runtime minutes is 188 minutes while the minimum runtime is 67 minutes, The average runtime minutes is 106 minutes
 25th Percentile (Q1): 93 minutes
 This means that 25% of the movies in the dataset have a runtime of 93 minutes or les s. 50th Percentile (Q2 or Median): 105 minues
@@ -60,18 +61,19 @@ Judging by this data, movies produced by microsoft should range between 90 mins 
 In terms of ratings
 Top rated R had 105,PG-13 had 77,PG – 38, NR-9
 
-(insert rating graph)
+![rating graph](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/0ff77275-b0de-4bae-83a8-a94d9135d6b9)
 
 This dataset shows that a good number of movies are rated restricted meaning viewers should be over the ag of 17 or 18. A good number of target audience for movies are people aged above 18. Restricted movies are followed closely by PG-13 which means parents strongly cautioned and the movie might be appropriate for users aged below 13. Parental guidance rated movies is third meaning movie might not be suitable for children. This project data then suggests that a good number of movie watchers are mostly audlts and the comapny should invest more on Restricted movie but also shoul be able to invest in PG-13 rated movies to suit all audiences
 
 
 
 The project also tried to look at the budget of movie productions from previous years and estimate figures Microsoft should anticipate. First we get to find the international gross which is worldwide gross – domestic gross to know how much returns to movies get from the international audience.
-(insert international gross)
+![international gross](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/300b5018-d78a-45e2-9c92-d1eb39a785b0)
+
  
 From the international gross we then try to find the differences between the international gross to know the pattern involved. From the table it shows that alot of returns are from international audience. More movie marketing should also be done in the international market.
 
-(insert scatter graph fro production vs domestc)
+![scatter plots](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/88f2a2b4-ab45-4b77-8aa0-5f0bfbdeaadc)
 
 
 The above scatter graph shows the relation between domestic gross vs international gross and production budget against worldwide gross. This plot shows that an increase in domestic gross will influence an increase in international gross and production budget influences worlwide gross
@@ -81,14 +83,13 @@ The project then tries to estimate production budget, gross and profits as shown
 
 
 From the table we can see that the estimated production for starting a movie would be figures close to $31,587,760 and profits would be close to $59,899,700 but does not those would be the actual profit figures but most movies make profits of up to $8,550,286 and more
-(Insert)
+![heatmaps](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/a392a13f-1833-4ea4-ab2b-5cf1998f91e4)
 
 
 
 From the third file the project analyzed which included popularity, vote average and vote count. In terms of correlation of popularity vs vote average with a correlation co efficient of 1 indicates a perfect positive correlation. This means that as popularity increases, vote average in movies also increases. It indicates a strong positive relationship between popularity and vote average. Vote count vs vote average shows a correlation coefficient of 0.73 which indicates a strong positive correlation and suggests that as the vote count increases the vote average tends to increase but it is not a perfect correlation
 
-(insert)
-
+![movie counts](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/18b02522-d54a-48ff-aab1-8f250b3f9237)
 
 
 From the movie info file the projects tries to find out which writes microsoft should try and collaborate with . From the value counts conducted the top most writer was Woody Allen with a total of 4 movies written followed by John Hughes with 3 and Jim Jarsmuch with 3 too . This project then goes ahead to suggest the three writers as a good potential start to write movies for Microsoft.
@@ -96,10 +97,10 @@ In the reviews file the project tries to find what ratings do most movies to be 
 
 From  the database the project mainly used 3 tables, movies basics movie akas and movie ratings. The first table we used  was movie basics to know what number of movies were produced in a certain year. From the result we notice that 2014 had the highest number of movies produced followed by 2013. The project results displayed then shows a gradual decrease of movies produced with 2023 having the least from the data we had.
 
-(insert movie counts)
+![inception](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/dbc01431-ecbf-4ede-9185-72a6ad559126)
 
 From the movie ratings table the average rating and numvotes columns displayed in the scatter plot, we can see that alot of movies are mostly between 6 and 8 with a large number of movies being rated 7
-(insert scatter plot)
+![num votes and average rating](https://github.com/ed-gar-k/final-PH-repo/assets/109956677/6ff843b5-ca6d-42cc-852f-0344d01a642f)
 
 Inception movie was top movie with a high number of counts and an average rating of 8.8 while the dark knight rises had an average rating vote of 8.4. Microsoft should analyze these type of movie content to know what type of content fascinates the audience
 From the above correlation map shows the relationship between average rating and number of vote counts
